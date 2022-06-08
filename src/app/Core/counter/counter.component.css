@@ -1,0 +1,43 @@
+.counter-section {
+  background-image: url(/assets/images/counter-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 443.25px;
+  padding: 100px 0 150px 0;
+}
+.counter-card {
+  padding: 30px 50px;
+  width: 306px;
+  height: 194px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+}
+.card-image {
+  /* background-color: var(--blue); */
+  /* color: var(--blue); */
+  /* text-align: center; */
+
+  /* vertical-align: middle; */
+  height: 92px;
+  width: 107px;
+  margin: 0 auto;
+}
+.counter-card-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  display: inline;
+
+  /* use the right color, which is white */
+  /* color: white */
+}
+.counter-card-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  display: block;
+  /* text-align: center; */
+  /* use the right color, which is white */
+  /* color: white */
+}

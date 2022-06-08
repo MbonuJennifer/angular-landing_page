@@ -1,0 +1,37 @@
+.social-media-icons {
+  display: flex;
+}
+.talk-text {
+  display: flex;
+}
+.arrow-icon {
+  color: #ff9800;
+  font-size: 25px;
+}
+.nav-bar {
+  line-height: 26.25px;
+  height: 88px;
+  background-color: #0a0c1c;
+}
+.talk-heading {
+  font-size: 15px;
+}
+.cart-badge {
+  background-color: #ff9800;
+  color: #0a0c1c;
+  font-size: 9px;
+}
+.horizontal-rule {
+  background-color: #ff9800;
+  min-height: 1px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+.horizontal-rule:hover {
+  transform: scaleX(1);
+  transition: all 0.8s ease-in-out;
+}
+.vertical-rule {
+  min-width: 1px;
+  color: white;
+}

@@ -1,0 +1,61 @@
+.services-section {
+  background-image: url(/assets/images/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  padding: 0 0 160px 0;
+}
+
+.service-card-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.service-card-text {
+  color: #707070;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.hero-button {
+  font-family: Antonio, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 5px 20px 5px 0;
+  background-color: transparent;
+  border: none;
+}
+.service-card {
+  width: 415.987px;
+  padding: 60px 47px 60px 47px;
+  margin-top: -100px;
+}
+/* I need to get a hover for the card such that all the text-color changes to white */
+/* .card-text:hover{
+    color: white;
+}
+.hero-button:hover{
+    color: white;
+} */
+.card:hover {
+  color: white;
+  background-color: var(--blue);
+}
+.icon-arrow {
+  color: #ff9800;
+  font-size: 25px;
+  background-color: var(--blue);
+  position: static;
+  border-radius: 50%;
+}
+.card-section-p-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0a0c1c;
+  margin-top: 30px;
+}

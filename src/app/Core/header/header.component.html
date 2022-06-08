@@ -1,0 +1,91 @@
+<nav class="navbar navbar-expand-lg nav-bar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img [src]="'/assets/images/logo.png'" alt="This is the brand logo." />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-center"
+      id="navbarSupportedContent"
+    >
+      <!-- <ul class="navbar-nav nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul> -->
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-current="page" routerLink="/home" routerLinkActive="active" href="#">
+            HOME
+            <i class="bi bi-chevron-down ms-2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/about" routerLinkActive="active" href="#">
+            ABOUT
+            <i class="bi bi-chevron-down ms-2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/services" routerLinkActive="active" href="#">
+            SERVICES
+            <i class="bi bi-chevron-down ms-2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/blog" routerLinkActive="active" href="#">
+            BLOG
+            <i class="bi bi-chevron-down ms-2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/contact" routerLinkActive="active">
+            CONTACT US
+            <i class="bi bi-chevron-down ms-2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white bi bi-cart2 position-relative">
+            <span
+              class="position-absolute top-50 start-105 translate-middle badge rounded-pill cart-badge"
+            >
+              0
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="social-media-icons mx-4 text-white">
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-pinterest mx-3"></i>
+      <i class="bi bi-github"></i>
+      <i class="bi bi-linkedin ms-3"></i>
+    </div>
+    <div class="vr vertical-rule opacity-100"></div>
+    <div class="talk-text mx-3">
+      <div>
+        <h5 class="talk-heading text-white mt-2">LET'S TALK NOW</h5>
+        <hr class="horizontal-rule opacity-100" />
+      </div>
+
+      <i class="bi bi-arrow-up-right-circle-fill ms-3 arrow-icon"></i>
+    </div>
+  </div>
+</nav>

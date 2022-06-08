@@ -1,0 +1,113 @@
+.faq-section {
+  height: 731.75px;
+  padding: 140px 0;
+}
+.faq-heading-sub {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: var(--main-color);
+}
+.faq-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--blue);
+  line-height: 80px;
+  text-shadow: rgb(212, 212, 212) 5px 11px 1px;
+}
+.faq-p-tag {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: var(--light-black);
+  line-height: 26.25px;
+  margin: 50px 0 0 0;
+  padding: 0 130px 0 0;
+}
+.faqs-circle {
+  border: 1px solid var(--main-color);
+  height: 78px;
+  width: 78px;
+  padding: 10px;
+  max-width: 100%;
+  border-radius: 50%;
+  /* display: inline; */
+}
+.faq-author-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 26.25px;
+  margin-left: 0;
+
+  /* vertical-align: middle; */
+}
+.faq-author-box {
+  margin-top: 40px;
+  outline: none;
+  border: none;
+}
+/* Accordion */
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s ease-in-out;
+  margin-bottom: 50px;
+  background-color: white;
+  line-height: 28px;
+  height: 98px;
+
+  padding: 30px 50px 30px 50px;
+  /* display: flex; */
+  /* z-index: 5; */
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+  border-top: 3px solid  #FFA800;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: var(--main-color);
+  float: right;
+  margin-top: -50px;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  margin-top: -50px;
+  color: var(--main-color);
+
+}
+.shape {
+  height: 30px;
+  width: 30px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -10px;
+  /* z-index: 1; */
+}
+.faqs-t {
+  z-index: 7;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  /* display: flex; */
+}

@@ -1,0 +1,18 @@
+.pages-section-hero {
+  height: 700px;
+  padding: 80px 0 0 0;
+  min-height: 700px;
+ background-image: url(/assets/images/page-banner.jpg);
+  background-size: cover;
+  position: relative;
+  
+}
+.overlay{
+  background-color:  #031F42;
+  /* position: absolute; */
+  opacity: .7;
+  /* overflow: hidden; */
+  height: 700px;
+  width: 100%;
+  margin-top: -80px;
+}

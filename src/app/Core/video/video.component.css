@@ -1,0 +1,77 @@
+.video-section {
+  height: 805px;
+  padding: 250px 0 250px 0;
+  background-image: url("/assets/images/video-bg.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+.overlay{
+  background-color:  #031F42;
+  position: absolute;
+  opacity: .7;
+  margin-top: -251px;
+  /* overflow: hidden; */
+  height: 669px;
+  width: 100%;
+}
+.video-group-text{
+  z-index: 6;
+  position: relative;
+}
+/* .bg-image {
+} */
+.video-text {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 80px;
+  width: 855.987px;
+  color: white;
+}
+.pulse {
+  height: 95px;
+  width: 95px;
+  background: var(--main-color);
+  /* margin: 50px auto; */
+  margin: 30% 48%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 50%;
+  font-size: 30px;
+  display: grid;
+  place-items: center;
+  /* text-align: center; */
+  color: white;
+  z-index: 6;
+  position: absolute;
+}
+.video-play-icon {
+  /* text-align: center; */
+  padding-bottom: 5px;
+  z-index: 5;
+}
+.pulse:before,
+.pulse:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  z-index: 4;
+  opacity: 0.7;
+}
+.pulse:before {
+  animation: pulse 3s ease-out infinite;
+}
+.pulse:after {
+  animation: pulse 3s 2s ease-out infinite;
+}
+@keyframes pulse {
+  22% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}

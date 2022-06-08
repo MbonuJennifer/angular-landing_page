@@ -1,0 +1,25 @@
+.marketing-section {
+  height: 426px;
+  padding: 140px 0 140px 0;
+}
+.marketing-title {
+  /* font-family: Antonio, sans-serif; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  color: var(--blue);
+  text-align: center;
+}
+.marketing-subtitle {
+  color: var(--main-color);
+}
+.marketing-image {
+  height: 30px;
+  width: 154px;
+}
+.marketing-group-image{
+  display: flex;
+  justify-content: space-evenly;
+  /* place-content: center; */
+  margin: 50px 0;
+}

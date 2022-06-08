@@ -1,0 +1,44 @@
+.brand-section {
+  height: 840px;
+  /* width: 1519.2px */
+  padding: 120px 0 120px 0;
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: var(--main-color);
+}
+.brand-section-text {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--blue);
+  width: 601px;
+  text-shadow: rgb(212, 212, 212) 5px 11px 1px;
+}
+.brand-text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--blue);
+  width: 506px;
+}
+.brand-para {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 26.25px;
+  margin: 25px 0;
+  color: var(--light-black);
+  text-align: justify;
+  width: 506px;
+}
+.brand-image1 {
+  height: 600px;
+  width: 566px;
+  margin: 0 0 0 70px;
+  /* padding: 300px 0 300px 0; */
+  /* position: relative; */
+}
